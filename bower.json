@@ -20,6 +20,7 @@
     "core-animated-pages": "Polymer/core-animated-pages#>=0.3.5 <1.0.0",
     "core-scroll-header-panel": "Polymer/core-scroll-header-panel#>=0.3.5 <1.0.0",
     "paper-item": "Polymer/paper-item#>=0.3.5 <1.0.0",
-    "paper-menu-button": "Polymer/paper-menu-button#>=0.3.5 <1.0.0"
+    "paper-menu-button": "Polymer/paper-menu-button#>=0.3.5 <1.0.0",
+    "simple-list": "debianw/simple-list#~0.0.4"
   }
 }

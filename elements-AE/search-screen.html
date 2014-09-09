@@ -1,7 +1,7 @@
 <link rel="import" href="../dependencies/core-scroll-header-panel/core-scroll-header-panel.html">
 <link rel="import" href="../dependencies/core-toolbar/core-toolbar.html">
 <link rel="import" href="../dependencies/core-icon-button/core-icon-button.html">
-<link rel="import" href="../dependencies/core-list/core-list.html">
+<link rel="import" href="../dependencies/simple-list/simple-list.html">
 <polymer-element name="search-screen" extends="force-route" attributes="sobject searchfields fieldstofetch resultHeight">
     <template>
 
@@ -74,9 +74,9 @@
             <div class="content" style="height:100%">
 
                 <force-sobject-collection id="list" sobject="{{sobject}}" querytype="{{$.search.querytype}}" query="{{$.search.query}}" on-sync="{{updateListview}}" style="display:none" maxsize="2000" pagesize="100"></force-sobject-collection>
-                <core-list id="uilist" height="{{resultHeight}}" style="height:100%">
+                <simple-list id="uilist" height="{{resultHeight}}" style="height:100%">
                     <content select="*"></content>
-                </core-list>
+                </simple-list>
 
             </div>
 
